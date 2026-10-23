@@ -1,0 +1,23 @@
+{
+  "listen": "127.0.0.2:8138",
+  "tables": [
+    {
+      "id": 0,
+      "set": 0,
+      "sd": 1,
+      "bsl": 64,
+      "entries": [
+        { "bp": 1, "nexthops": [ { "disp": 8 } ] }
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "id": 8,
+      "entries": [
+        { "sender": 333, "proto": 5, "deliver": "127.0.0.2:19002" },
+        { "sender": 0, "proto": 5, "deliver": "127.0.0.2:19002" }
+      ]
+    }
+  ]
+}

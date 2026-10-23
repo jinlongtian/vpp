@@ -38,4 +38,11 @@ if(Python3_Interpreter_FOUND)
             $<TARGET_FILE:bierd> ${CMAKE_CURRENT_SOURCE_DIR}/configs/example.json
   )
   set_tests_properties(bier_e2e PROPERTIES TIMEOUT 20)
+
+  add_test(
+    NAME bier_two_node
+    COMMAND bash ${CMAKE_CURRENT_SOURCE_DIR}/tests/two_node.sh
+            $<TARGET_FILE:bierd>
+  )
+  set_tests_properties(bier_two_node PROPERTIES TIMEOUT 20)
 endif()

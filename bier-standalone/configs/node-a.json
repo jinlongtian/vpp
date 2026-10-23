@@ -1,0 +1,25 @@
+{
+  "listen": "127.0.0.1:8138",
+  "tables": [
+    {
+      "id": 0,
+      "set": 0,
+      "sd": 1,
+      "bsl": 64,
+      "entries": [
+        { "bp": 1, "nexthops": [ { "addr": "127.0.0.2:8138" } ] }
+      ]
+    }
+  ],
+  "impositions": [
+    {
+      "id": 1,
+      "table_id": 0,
+      "sender": 333,
+      "proto": 5,
+      "entropy": 0,
+      "listen": "127.0.0.1:19001",
+      "bitstring": "0000000000000001"
+    }
+  ]
+}
