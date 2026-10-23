@@ -1,0 +1,35 @@
+Start testing: Oct 23 14:11 CST
+----------------------------------------------------------
+1/2 Testing: bier_unit
+1/2 Test: bier_unit
+Command: "/workspace/bier-standalone/build/test_bier"
+Directory: /workspace/bier-standalone/build
+"bier_unit" start time: Oct 23 14:11 CST
+Output:
+----------------------------------------------------------
+all BIER tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"bier_unit" end time: Oct 23 14:11 CST
+"bier_unit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: bier_e2e
+2/2 Test: bier_e2e
+Command: "/root/.pyenv/shims/python3" "/workspace/bier-standalone/tests/e2e_udp.py" "/workspace/bier-standalone/build/bierd" "/workspace/bier-standalone/configs/example.json"
+Directory: /workspace/bier-standalone/build
+"bier_e2e" start time: Oct 23 14:11 CST
+Output:
+----------------------------------------------------------
+BIER UDP end-to-end test passed
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"bier_e2e" end time: Oct 23 14:11 CST
+"bier_e2e" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 23 14:11 CST

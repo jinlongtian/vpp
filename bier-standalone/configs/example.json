@@ -1,0 +1,36 @@
+{
+  "listen": "127.0.0.1:18138",
+  "tables": [
+    {
+      "id": 0,
+      "set": 0,
+      "sd": 1,
+      "bsl": 64,
+      "entries": [
+        { "bp": 1, "nexthops": [ { "addr": "127.0.0.1:18201" } ] },
+        { "bp": 2, "nexthops": [ { "addr": "127.0.0.1:18202" } ] },
+        { "bp": 3, "nexthops": [ { "disp": 8 } ] }
+      ]
+    }
+  ],
+  "impositions": [
+    {
+      "id": 1,
+      "table_id": 0,
+      "sender": 333,
+      "proto": 5,
+      "entropy": 0,
+      "listen": "127.0.0.1:18139",
+      "bitstring": "ffffffffffffffff"
+    }
+  ],
+  "dispositions": [
+    {
+      "id": 8,
+      "entries": [
+        { "sender": 99, "proto": 5, "deliver": "127.0.0.1:18203" },
+        { "sender": 0, "proto": 5, "deliver": "127.0.0.1:18203" }
+      ]
+    }
+  ]
+}
