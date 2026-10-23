@@ -1,0 +1,8 @@
+build/
+Testing/
+*.o
+*.a
+*.so
+*.dylib
+bierd
+compile_commands.json

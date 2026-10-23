@@ -1,0 +1,6 @@
+/workspace/bier-standalone/build/CMakeFiles/bier.dir
+/workspace/bier-standalone/build/CMakeFiles/bierd.dir
+/workspace/bier-standalone/build/CMakeFiles/test_bier.dir
+/workspace/bier-standalone/build/CMakeFiles/test.dir
+/workspace/bier-standalone/build/CMakeFiles/edit_cache.dir
+/workspace/bier-standalone/build/CMakeFiles/rebuild_cache.dir
